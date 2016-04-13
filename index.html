@@ -1,160 +1,118 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>bit-ácora</title>
-	<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/9815315/faviconbit.png">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Idar González: Diseñador Gráfico / Front-End / Developer</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Portafolio digital de Idar González">
+	<meta property="og:image" content=""/>
+    <meta property="og:title" content="Idar González: Diseñador Gráfico / Front-End / Developer"/>
+    <meta property="og:url" content="http://idargonzalez.github.io/"/>
+    <meta property="og:site_name" content="Idar González: Diseñador Gráfico / Front-End / Developer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Portafolio digital de Idar González" />
+	<meta name="google-site-verification" content="" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="http://idargonzalez.github.io/">
+	<meta name="twitter:title" content="Idar González: Diseñador Gráfico / Front-End / Developer">
+	<meta name="twitter:description" content="Portafolio digital de Idar González">
+	<meta name="twitter:image" content="">
+	<meta name="twitter:site" content="@IdarGonzalez">
+	<meta name="twitter:creator" content="@IdarGonzalez">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
-	<script type="text/javascript" src="js/shadowbox.js"></script>
-	<script type="text/javascript">
-	Shadowbox.init();
-	</script>
-
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
-<body>
-	<!-- Menú superior -->
+<body class="bg-mar">
+	<div class="collapse" id="exCollapsingNavbar">
+		<div class="bg-inverse p-a-1">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="cv.html"><span class="icon icon-profile"></span> CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="portafolio.html"><span class="icon icon-books"></span> Portafolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="herramientas.html"><span class="icon icon-cogs"></span> Herramientas</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 	<header>
-		<nav>
-			<a href="index.html"><img src="img/bit-acora.png" alt="Logo de Bit-ácora"><span class="bitacora">bit-ácora</span></a>
-			<ul>
-				<li class="currentlink"><a href="home.html">registro</a></li>
-				<li><a href="acerca.html">acerca de</a></li>
-				<li><a href="notas.html">deja una nota</a></li>
+		<nav class="navbar navbar-dark" role="navigation">
+			<button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+				&#9776;
+			</button>
+			<a class="navbar-brand" href="index.html">Idar González </a>
+			<ul class="nav nav-pills pull-lg-right">
+				<li class="nav-item">
+					<a class="nav-link"><span class="icon icon-share2"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.facebook.com/DibujanteCronico" target="_blank"><span class="icon icon-facebook2"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.linkedin.com/in/idargonzalez" target="_blank"><span class="icon icon-linkedin"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://twitter.com/IdarGonzalez" target="_blank"><span class="icon icon-twitter"></span></a>
+				</li>
 			</ul>
 		</nav>
-
 	</header>
-	<!-- Fin menú superior -->
-	
-	<!-- contenido -->
-	<div id="wrap">
-		<section class="definition">
-		<p>Bitácora: 1. m. Mar. Libro en que se apunta el rumbo, velocidad, maniobras y demás accidentes de la navegación.</p>
-		</section>
-		<div id="content">
-			<!-- Quizás esto debería ser Article y no un div, ya que esta caja de contenido va a ir cambiando de lugar -->
-			<div class="content-2">
-				<p class="img-2-desc">Victoria<br><span class="date">2013 - 9 - 21</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest6.jpg" rel="shadowbox[instagram]" title="Victoria / 2013 - 9 - 21"><img src="img/imagentest6.jpg"></a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Quincho<br><span class="date">2013 - 4 - 22</span><br><span class="categ">croquis</span></p>
-    			<a href="img/croquistest8.jpg" rel="shadowbox[croquis]" title="Quincho / 2013 - 4 - 22"><img src="img/croquistest8.jpg"></a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Reunión<br><span class="date">2011 - 6 - 12</span><br><span class="categ">croquis</span></p>
-    			<a href="img/croquistest1.jpg" rel="shadowbox[croquis]" title="Reunión / 2011 - 6 - 12"><img src="img/croquistest1.jpg"></a>
-			</div>
-			<!-- por ejemplo quizás así podría ser con figure y figcaption -->
-			<div class="content-2">
-				<p class="img-2-desc">Valparaíso desde el mar<br><span class="date">2013 - 8 - 11</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest1.jpg" rel="shadowbox[instagram]" title="Valparaíso desde el mar / 2013 - 8 - 11"><img src="img/imagentest1.jpg"></a>
-			</div>
-			<!-- fin prueba ejemplo -->
-			<div class="content-3">
-				<p class="img-3-desc">Cello Bow<br><span class="date">2005 - 4 - 3</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest1.jpg" rel="shadowbox[ilustración digital]" title="Cello bow / 2005 - 4 - 3"><img src="img/ilustraciontest1.jpg"></a>
-			</div>
-
-			<div class="content-1">
-				<p class="img-1-desc">Sao Paulo 1<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest2.jpg" rel="shadowbox[croquis]" title="Sao Paulo 1 / 2012 - 10 - 12"><img src="img/croquistest2.jpg"></a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Sao Paulo 2<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest3.jpg" rel="shadowbox[croquis]" title="Sao Paulo 2 / 2012 - 10 - 12"><img src="img/croquistest3.jpg"></a>
-			</div>
-
-			<div class="content-2">
-				<p class="img-2-desc">Ventana<br><span class="date">2013 - 7 - 1</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest2.jpg" rel="shadowbox[instagram]" title="Ventana / 2013 - 7 - 1"><img src="img/imagentest2.jpg"></a>
-			</div>
-
-			<div class="content-audio">
-				<p class="img-audio-desc">Contraforma<br><span class="date">2013 - 6 - 30</span><br><span class="categ">audio</span></p>
-				
-				<a onclick="Contraforma.play()" class="button"><audio id="Contraforma" src="audio/contraforma.mp3"></audio>&#9835;</a>
-				<a onclick="Contraforma.pause()" class="button"></audio> &#10006</a>
-
-			</div>
-
-			<div class="content-2">
-				<p class="img-2-desc">Para los pasajeros<br><span class="date">2013 - 4 - 24</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest3.jpg" rel="shadowbox[instagram]" title="Para los pasajeros / 2013 - 4 - 24"><img src="img/imagentest3.jpg"></a>
-			</div>
-			<div class="content-3">
-				<p class="img-3-desc">Lennon<br><span class="date">2012 - 10 - 23</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest2.jpg" rel="shadowbox[ilustración digital]" title="Lennon / 2012 - 10 - 23"><img src="img/ilustraciontest2.jpg"></a>
-			</div>
-			<div class="content-3">
-				<p class="img-3-desc">Force<br><span class="date">2006 - 9 - 16</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest3.jpg" rel="shadowbox[ilustración digital]" title="Force / 2006 - 9 - 16"><img src="img/ilustraciontest3.jpg"></a>
-			</div>
-			<div class="content-3">
-				<p class="img-3-desc">Fairy<br><span class="date">2004 - 2 - 6</span><br><span class="categ">ilustración digital</span></p>
-				<a href="img/ilustraciontest4.jpg" rel="shadowbox[ilustración digital]" title="Fairy / 2004 - 2 - 6"><img src="img/ilustraciontest4.jpg"></a>
-			</div>
-			<div class="content-audio">
-				<p class="img-audio-desc">Strawberry<br><span class="date">2013 - 5 - 28</span><br><span class="categ">audio</span></p>
-				<a onclick="Strawberry.play()" class="button"><audio id="Strawberry" src="audio/Strawberry.mp3"></audio>&#9835;</a>
-				<a onclick="Strawberry.pause()" class="button"></audio> &#10006</a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Estación Francia<br><span class="date">2011 - 5 - 4</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest5.jpg" rel="shadowbox[croquis]" title="Estación Francia / 2011 - 5 - 4"><img src="img/croquistest5.jpg"></a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Sao Paulo 5<br><span class="date">2012 - 10 - 12</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest6.jpg" rel="shadowbox[croquis]" title="Sao Paulo 5 / 2012 - 10 - 12"><img src="img/croquistest6.jpg"></a>
-			</div>
-			<div class="content-1">
-				<p class="img-1-desc">Sotomayor<br><span class="date">2010 - 11 - 24</span><br><span class="categ">croquis</span></p>
-				<a href="img/croquistest7.jpg" rel="shadowbox[croquis]" title="Sotomayor / 2010 - 11 - 24"><img src="img/croquistest7.jpg"></a>
-			</div>
-			<div class="content-2">
-				<p class="img-2-desc">Flameante<br><span class="date">2013 - 5 - 2</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest4.jpg" rel="shadowbox[instagram]" title="Flameante / 2013 - 5 - 2"><img src="img/imagentest4.jpg"></a>
-			</div>
-			<div class="content-2">
-				<p class="img-2-desc">Recreo<br><span class="date">2013 - 9 - 8</span><br><span class="categ">instagram</span></p>
-				<a href="img/imagentest5.jpg" rel="shadowbox[instagram]" title="Recreo / 2013 - 9 - 8"><img src="img/imagentest5.jpg"></a>
-			</div>
-			<div class="content-audio">
-				<p class="img-audio-desc">Llovizna<br><span class="date">2013 - 5 - 28</span><br><span class="categ">audio</span></p>
-				<a onclick="Llovizna.play()" class="button"><audio id="Llovizna" src="audio/Llovizna.mp3"></audio>&#9835;</a>
-				<a onclick="Llovizna.pause()" class="button"></audio> &#10006</a>
+	<div class="container-fluid">
+		<div class="caption">
+			<h1 class="text-center uppercase condensed margin-bottom-sm">diseñador gráfico / diseñador web / desarrollador front-end </h1>
+			<h3 class="text-center italic serif margin-bottom-md">Hola, soy Idar, me especializo en diseño digital, diseño web y desarrollo front-end.</h3>
+			<div class="flex-container w30 margin-auto margin-bottom-lg">
+				<a class="btn btn-transparent margin-auto btn-md" href="cv.html"><span class="icon icon-profile"></span> CV</a>
+				<a class="btn btn-transparent margin-auto btn-md" href="portafolio.html"><span class="icon icon-books"></span> Portafolio</a>
 			</div>
 		</div>
 	</div>
-
-<!-- fin de contenido -->
-
-<!-- Footer -->
-	<footer>
-		<div id="foot">
-			<div id="contacto">
-				<p>Idar González Díaz</p>
-				<p>teléfono: + 56 9 59 58 55 58</p>
-			</div>
-			<div id="iconos">
-				<a href="https://www.facebook.com/DibujanteCronico"><img src="img/icons/facebook-32.png"></a>
-				<a href="mailto:idargonzalez@gmail.com"><img src="img/icons/gmail-32.png"></a>
-				<a href="https://github.com/IdarGonzalez"><img src="img/icons/github-32.png"></a>
-				<a href="http://instagram.com/idargonzalez#"><img src="img/icons/instagram-32.png"></a>
-				<a href="http://www.lastfm.es/user/ZissorS"><img src="img/icons/lastfm-32.png"></a>
-				<a href="https://soundcloud.com/idargonzalez"><img src="img/icons/soundcloud-32.png"></a>
-				<a href="https://twitter.com/IdarGonzalez"><img src="img/icons/twitter-32.png"></a>
-				<a href="https://vimeo.com/user12141784"><img src="img/icons/vimeo-32.png"></a>
-				<a href="http://www.youtube.com/user/TheZissorS"><img src="img/icons/youtube-32.png"></a>
+	<section class="bg-white">
+		<div class="container-fluid">
+			skills
+		</div>
+	</section>
+	<section class="bg-primary">
+		<div class="container-fluid">
+			tienes un proyecto para mi? Hablemos
+		</div>
+	</section>
+	<section class="bg-flores">
+		<div class="container-fluid">
+			<div class="widget widget-about-me">
+				<div class="widget-header">
+					<img src="assets/img/idarperfil.jpg" alt="Idar González">
+				</div>
+				<div class="widget-body w70 margin-auto">
+					<h3 class="condensed text-center uppercase">Acerca de mí</h3>
+					<p>Hola, soy <b>Idar González</b>, me especializo en diseño digital, diseño web y desarrollo front-end. Cuando no estoy diseñando, disfruto de la música, los videojuegos, la fotografía y mi familia.</p>
+				</div>
 			</div>
 		</div>
+	</section>
+	<footer>
+		<h6>Idar gonzález</h6>
+		<p>creado con <span class="icon icon-heart"></span> y <span class="icon icon-html-five"></span> <span class="icon icon-css3"></span> <span class="icon icon-git"></span> <span class="icon icon-codepen"></span> <span class="icon icon-github"></span></p>
+		<p><span class="icon icon-whatsapp"></span> +569 4501 9763 - <span class="icon icon-mail4"></span> idargonzalez@gmail.com</p>
+		<p>Este es un portafolio digital personal. También es un sitio donde Idar González almacena herramientas para su trabajo periódico.</p>
 	</footer>
-<!-- fin footer -->
+	<!-- Scripts -->
+	<!-- jQuery -->
+  	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="bower_components/bootstrap/js/dist/collapse.js"></script>
+	<script src="bower_components/bootstrap/js/dist/tab.js"></script>
+	<script src="bower_components/bootstrap/js/dist/modal.js"></script>
+	<script src="bower_components/bootstrap/js/dist/dropdown.js"></script>
+	<script src="bower_components/bootstrap/js/dist/util.js"></script>
 </body>
 </html>
