@@ -55,6 +55,9 @@ a {
 
 // Margins
 
+.no-margin {
+	margin: 0;
+}
 .margin-auto {
 	margin: auto;
 }
@@ -69,6 +72,35 @@ a {
 	margin-bottom: 30px;
 }
 .margin-bottom-lg {
+	margin-bottom: 60px;
+}
+
+// Paddings
+
+.no-padding {
+	padding: 0;
+}
+.padding-auto {
+	padding: auto;
+}
+.padding-lg {
+	padding: 60px;
+}
+.padding-vertical-lg {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+// paddings bottom
+.padding-bottom-xs {
+	padding-bottom: 5px;
+}
+.padding-bottom-sm {
+	padding-bottom: 15px;
+}
+.padding-bottom-md {
+	padding-bottom: 30px;
+}
+.padding-bottom-lg {
 	margin-bottom: 60px;
 }
 
@@ -115,6 +147,16 @@ a {
 // Objects
 .caption {
 	padding: 15vh 0;
+
+	h3 {
+		line-height: 1.4;
+	}
+}
+
+// Display
+
+.inline {
+	display: inline;
 }
 
 

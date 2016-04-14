@@ -22,3 +22,25 @@
 		}
 	}
 }
+
+// Skill
+.widget-skill {
+	.widget-header{
+		display: -webkit-flex;
+		display: flex;
+		padding: 50px;
+		.icon {
+			font-size: 64px;
+			margin: auto;
+		}
+	}
+	.widget-body {
+		p {
+			margin: 0;
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 28px;
+			font-family: $condensed;
+		}
+	}
+}
